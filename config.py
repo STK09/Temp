@@ -28,23 +28,23 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5827289728"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://SOUT:SOUT@cluster0.022gv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://FileSout:FileSout@cluster0.2d5js.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
 FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002445963619"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002341196202"))
-FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002470658194"))
-FORCESUB_CHANNEL4 = int(os.environ.get("FORCESUB_CHANNEL4", "-1002118318196"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002296605015"))
+FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002118318196"))
+FORCESUB_CHANNEL4 = int(os.environ.get("FORCESUB_CHANNEL4", "-1002406502895"))
                                        
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 START_PIC = os.environ.get("START_PIC", "https://envs.sh/awv.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/awN.jpg")
 
-HELP_TXT = "<b>If you can't use me or don't get any files, it's mean you don't join either <a href=https://t.me/STK_Animes>STK Animes</a> or <a href=https://t.me/AIO_Backup>AIO Backup</a>. First Join These Channels Then retry.</b>"
-ABOUT_TXT = "<b>• Creator: <a href=https://t.me/Soutick_09>Soutick</a>\n• Main Channel: <a href=https://t.me/STK_Animes>STK Animes</a>\n• Best Friend: <a href=tg://settings>This Person</a></b>"
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hello!! {mention} 👋! I'm Zenitsu.\n\nI'm here to provide you anime contents for Free 😄\n\n© @STK_Animes</b>")
+HELP_TXT = "<b>If you can't use me or don't get any files, it's mean you don't join either <a href=https://t.me/+LGPS4EDPWLA2YTM1>AIO J*v</a> or <a href=https://t.me/AIO_Backup>AIO Backup</a>. First Join These Channels Then retry.</b>"
+ABOUT_TXT = "<b>• Creator: <a href=https://t.me/Soutick_09>Soutick</a>\n• Backup Channel: <a href=https://t.me/AIO_Backup>AIO Backup 🔞</a>\n• Best Friend: <a href=tg://settings>This Person</a></b>"
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello!! {mention} 👋! I'm Alya.\n\nI'm here to provide you adult contents for Free 😄\n\n© @AIO_Backup</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "7272399911").split()):
